@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Page de contact" />
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="menu.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <div class="photoperso">
+                <img src="aa.jpg" alt="photoperso">
+            </div>
+            <div class="poste size40 colorgreen">
+                Electronicien <br />
+                Programmeur <br />
+                Paysagiste <br />
+            </div>
+            <div class="info size40 colorblueu">
+                Raydiv TOUKAM KOUAM <br />
+                Bahiala-Baham <br />
+                Concession MEKAM TABIEGAING <br />
+            </div>
+        </div>
+        <!-- Nav -->
+        <nav>
+            <ul>
+                <li class="menuinfo">
+                    <a href="cv.html">Mes informations</a>
+                </li>
+                <li class="menuexperiences">
+                    <a href="experience.html">Expériences</a>
+                </li>
+                <li class="menucontact">
+                    <a href="contact.html">Formulaire de contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Corps du site -->
+        <div class="corps size20">
+                <h2>RTK-services</h2>
+                <div>
+                    Téléphone (Whatsapp) : +237 670541266 / 694306274 <br/>
+                    Email : raydivkt@gmail.com
+                </div>
+                <h2>Me contacter</h2>
+                <div>
+                    <form>
+                    <fieldset>
+                        <legend>Renseignez les informations</legend>
+                        <div>
+                            <label for="nom">Nom :</label>
+                            <input type="text" name="nom" id="nom" placeholder="Nom et prénom"/>
+                        </div>
+                        <div>
+                            <label for="mail">Email :</label>
+                            <input type="email" name="mail" id="mail" placeholder="xxx@exemple.com"/>
+                        </div>
+                        <div>
+                            <label for="objet">Objet :</label>
+                            <select name="objet" id="objet">
+                                <option>Question</option>
+                                <option>Autre</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message">Message :</label>
+                            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                        </div>
+                        <input type="submit" value="Envoyer" class="bouttonborder bgcolor text-blanc">
+                    </fieldset>
+                    </form>
+                </div>
+        </div>
+        <!-- footer -->
+        <div class="footer text-center text-blanc bg-colorfooter">
+            Tous droits reservés
+        </div>
+    </body>
+</html>

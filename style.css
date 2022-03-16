@@ -1,0 +1,154 @@
+body{
+    font-family: 'Berlin Sans FB', 'Trebuchet MS', Arial;
+    border: 1px solid aqua;
+}
+.size40{
+    font-size: 30px;
+}
+.size20{
+    font-size: 20px;
+}
+.police1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gauche{
+    float: left;
+}
+.droite{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+.colorblueu{
+    color: blue;
+}
+.colorblueu1{
+    color: rgb(47, 47, 172);
+}
+.colorgreen{
+    color: green;
+}
+.coloryellowgreen{
+    color: yellowgreen;
+}
+.colororange{
+    color: rgb(226, 120, 21);
+}
+.text-blanc{
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+.bg-colorfooter{
+    background-color: aqua;
+}
+.bgcolor{
+    background-color: green;
+}
+h2{
+    padding: 0px;
+    margin: 30px;
+    border-bottom: 2px solid blue;
+}
+.bordernone{
+    border-bottom: none;
+}
+
+
+/*******
+***header
+******/
+.header{
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header .photoperso, .header .info{
+    width:35%;
+}
+.header .photoperso img{
+    height:250px;
+}
+.header .poste{
+    flex:auto;
+}
+.col1{
+    width: 40%;
+}
+.col2{
+    width: 55%;
+}
+/****
+**FIN DU HEADER
+****/
+
+/****
+**FOOTER
+****/
+.footer{
+    padding: 10px;
+    margin-top: 50px;
+}
+
+/****
+**FIN DU FOOTER
+****/
+
+/****
+**CORPS
+****/
+.corps{
+    padding: 0% 2%;
+}
+.domainecompetence table{
+    width: 100%;
+}
+.domainecompetence table td, .domainecompetence table th{
+    padding: 10px 20px;
+    border: 1px solid black;
+    width: 35%;
+}
+label{
+    display: block;
+    width: 20%;
+    text-align: right;
+    float: left;
+    padding-right: 20px;
+}
+.bouttonborder{
+    width: 200px;
+    margin-left: 20%;
+}
+/****
+**FIN DU CORPS
+****/
+
+@media (max-width: 768px){
+    .size40{
+        font-size: 18px;
+    }
+    .size20{
+        font-size: 12px;
+    }
+    .header .photoperso img{
+        height:120px;
+    }
+    .col1{
+        width: 35%;
+    }
+    .col2{
+        width: 65%;
+    }
+}
+@media (min-width: 769px) and (max-width : 1200px){
+    .col1{
+        width: 40%;
+    }
+    .col2{
+        width: 60%;
+    }
+}
